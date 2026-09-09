@@ -1,34 +1,87 @@
 # Playwright8thSept
 
-This repository contains JavaScript learning exercises and notes prepared for the Playwright learning journey. It focuses on JavaScript fundamentals, variable behavior, literals, and coding practices before moving into automation work.
+This repository is a JavaScript learning workspace created for the Playwright learning journey. It contains beginner-friendly examples, concept exercises, and notes covering the core JavaScript fundamentals needed before moving into automation testing.
+
+## Overview
+
+The project is organized chapter-wise so each folder focuses on a specific JavaScript topic. The exercises are designed for hands-on practice and quick understanding of syntax, rules, and behavior.
 
 ## Project structure
 
-- `chapter_01_Basics/` - basic JavaScript setup, syntax, and verification files
+- `chapter_01_Basics/` - basic JavaScript setup, syntax, and environment checks
+  - `01_basics.js`
+  - `02_basics1.js`
+  - `03_verify_setup.js`
+  - `04_hotcode.js`
+
 - `chapter_02_JavaScript_Concepts/` - core JavaScript concept examples
-- `chapter_03_Identifier_Literals/` - identifiers, comments, and literal usage
-- `chapter_04_Var_Let_Const/` - `var`, `let`, `const`, hoisting, and block scoping examples
-- `chapter_05_Literal/` - number, string, null/undefined, and template literal examples
+  - `05_basics.js`
+
+- `chapter_03_Identifier_Literals/` - identifiers, literals, and comments
+  - `06_identifier_rules_1.js`
+  - `07_identifer_rules_2.js`
+  - `08_comments.js`
+
+- `chapter_04_Var_Let_Const/` - variable declaration, hoisting, scoping, and function behavior
+  - `09_var_let_const.js`
+  - `10_function.js`
+  - `11_var_explained.js`
+  - `12_let_explained.js`
+  - `13_const_explained.js`
+  - `14_var_function_scoped.js`
+  - `15_let_block_scoped.js`
+  - `16_var_hoisting.js`
+  - `17_hoisting_function.js`
+  - `18_let_hoisting.js`
+  - `19_let_hoisting_block.js`
+  - `20_const_hoisting.js`
+  - `21_realtime_ex.js`
+
+- `chapter_05_Literal/` - literal values and string formatting
+  - `22_literal.js`
+  - `23_null_undefined.js`
+  - `24_null.js`
+  - `25_literal_all.js`
+  - `26_literal_number.js`
+  - `27_string.js`
+  - `28_template_literal.js`
+  - `29_single_double_backtick.js`
+
+- `chapter_06_Operator/` - assignment, arithmetic, comparison, logical, and string concatenation operators
+  - `30_assignment_operator.js`
+  - `31_arithmetic_operator.js`
+  - `32_modulus_operator.js`
+  - `33_exponential_operator.js`
+  - `34_iq.js`
+  - `35_comparison_operator.js`
+  - `36_comparison_loose_strict.js`
+  - `37_iq_loose_strict.js`
+  - `38_confusing_comparison.js`
+  - `39_logical_operator.js`
+  - `40_string_concatenation.js`
 
 ## How to run examples
 
-Run any JavaScript file from the project root using Node.js:
+Use Node.js from the project root to execute any lesson file:
 
 ```bash
 node chapter_01_Basics/01_basics.js
 node chapter_05_Literal/28_template_literal.js
+node chapter_06_Operator/40_string_concatenation.js
 ```
 
 ## Learning goals
 
-- Understand JavaScript fundamentals
-- Practice variables, scopes, and literals
-- Build a strong foundation for Playwright automation
+- Understand JavaScript syntax and basic coding patterns
+- Learn variable declarations and scope rules
+- Practice literal usage and data types
+- Explore operators and expressions in real examples
+- Build a strong foundation for Playwright automation scripting
 
 ## Notes
 
-These files are intended for hands-on learning and practice of JavaScript syntax and concepts.
+These exercises are intended for self-study, quick experimentation, and practical understanding of JavaScript fundamentals.
 
-## GitHub
+## Repository
 
-Repository: https://github.com/rajeshpatil235/Playwright8thSept.git
+GitHub: https://github.com/rajeshpatil235/Playwright8thSept.git
