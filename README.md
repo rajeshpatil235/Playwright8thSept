@@ -1,24 +1,33 @@
 # Playwright8thSept
 
-This repository contains JavaScript basics and Playwright learning notes created during the "8th Sept" course session.
+This repository contains JavaScript learning exercises and notes prepared for the Playwright learning journey. It focuses on JavaScript fundamentals, variable behavior, literals, and coding practices before moving into automation work.
 
 ## Project structure
 
-- `chapter_01_Basics/` - basic JavaScript fundamentals and setup checks
-- `chapter_02_JavaScript_Concepts/` - JavaScript concept examples
-- `chapter_03_Identifier_Literals/` - identifier rules, literals, and comments
+- `chapter_01_Basics/` - basic JavaScript setup, syntax, and verification files
+- `chapter_02_JavaScript_Concepts/` - core JavaScript concept examples
+- `chapter_03_Identifier_Literals/` - identifiers, comments, and literal usage
+- `chapter_04_Var_Let_Const/` - `var`, `let`, `const`, hoisting, and block scoping examples
+- `chapter_05_Literal/` - number, string, null/undefined, and template literal examples
 
 ## How to run examples
 
-Use Node.js to run any JavaScript file from the project root:
+Run any JavaScript file from the project root using Node.js:
 
 ```bash
 node chapter_01_Basics/01_basics.js
+node chapter_05_Literal/28_template_literal.js
 ```
+
+## Learning goals
+
+- Understand JavaScript fundamentals
+- Practice variables, scopes, and literals
+- Build a strong foundation for Playwright automation
 
 ## Notes
 
-These files are designed for learning and practicing JavaScript syntax, concepts, and coding habits before moving into Playwright automation.
+These files are intended for hands-on learning and practice of JavaScript syntax and concepts.
 
 ## GitHub
 
