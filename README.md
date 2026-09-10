@@ -47,7 +47,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `28_template_literal.js`
   - `29_single_double_backtick.js`
 
-- `chapter_06_Operator/` - assignment, arithmetic, comparison, logical, and string concatenation operators
+- `chapter_06_Operator/` - assignment, arithmetic, comparison, logical, ternary, type, increment/decrement, nullish, and advanced operator exercises
   - `30_assignment_operator.js`
   - `31_arithmetic_operator.js`
   - `32_modulus_operator.js`
@@ -59,6 +59,14 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `38_confusing_comparison.js`
   - `39_logical_operator.js`
   - `40_string_concatenation.js`
+  - `41_ternary_operator.js`
+  - `42_type_operator.js`
+  - `43_pre_incre_decre_operator.js`
+  - `44_post_incre_decre_operator.js`
+  - `45_nullish_operator.js`
+  - `46_iq.js`
+  - `47_advanced_iq.js`
+  - `assignment.js`
 
 ## How to run examples
 
@@ -78,9 +86,20 @@ node chapter_06_Operator/40_string_concatenation.js
 - Explore operators and expressions in real examples
 - Build a strong foundation for Playwright automation scripting
 
+## Learning path
+
+This repository follows a structured beginner-friendly flow:
+
+1. Basics and environment setup
+2. JavaScript fundamentals and syntax rules
+3. Variables, scoping, and hoisting
+4. Literals and type-related concepts
+5. Operators and practical expression examples
+6. Preparation for Playwright test automation and scripting
+
 ## Notes
 
-These exercises are intended for self-study, quick experimentation, and practical understanding of JavaScript fundamentals.
+These exercises are intended for self-study, quick experimentation, and practical understanding of JavaScript fundamentals. Each file is designed to be read and executed individually to reinforce one concept at a time.
 
 ## Repository
 
