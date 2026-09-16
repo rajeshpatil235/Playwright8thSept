@@ -98,6 +98,22 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `69_node_readline.js`
   - `70_prompt_sync.js`
 
+- `chapter_10_Loops/` - for, while, do-while, and loop-based practice examples
+  - `71_for_loop.js`
+  - `72_for_loop.js`
+  - `73_for_loop.js`
+  - `74_iq.js`
+  - `75_for_of_in.js`
+  - `76_while.js`
+  - `77_do_while.js`
+  - `78_do_while2.js`
+  - `79_iq.js`
+  - `80_iq.js`
+  - `81_iq.js`
+  - `82_iq.js`
+  - `assignment.js`
+  - `assignment2.js`
+
 ## How to run examples
 
 Use Node.js from the project root to execute any lesson file:
@@ -109,6 +125,7 @@ node chapter_06_Operator/40_string_concatenation.js
 node chapter_07_If_Else/56_even_odd.js
 node chapter_08_Switch_Statement/59_switch.js
 node chapter_09_User_Input/69_node_readline.js
+node chapter_10_Loops/72_for_loop.js
 ```
 
 The user-input examples may wait for input in the terminal. The `70_prompt_sync.js` example uses the `prompt-sync` package when its code is enabled.
@@ -134,7 +151,8 @@ This repository follows a structured beginner-friendly flow:
 5. Operators and practical expression examples
 6. Conditional logic and switch statements
 7. User input with Node.js
-8. Preparation for Playwright test automation and scripting
+8. Repetition and loop control with `for`, `while`, and `do...while`
+9. Preparation for Playwright test automation and scripting
 
 ## Notes
 
