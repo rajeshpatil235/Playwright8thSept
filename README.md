@@ -129,7 +129,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `94_concatArray.js`
   - `95_arrayCheck.js`
 
-- `chapter_12_Functions/` - function declarations, parameters, return values, expressions, and arrow functions
+- `chapter_12_Functions/` - function declarations, parameters, expressions, arrow functions, scope, closures, higher-order functions, and pure functions
   - `96_function.js`
   - `97_type1_noParam_noReturn.js`
   - `98_type2_withParam_noReturn.js`
@@ -138,6 +138,20 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `101_template_literal.js`
   - `102_functionAsExpression.js`
   - `103_arrowFunction.js`
+  - `104_arrowFunctionReal.js`
+  - `105_IIFE.js`
+  - `106_defaultParamFun.js`
+  - `107_IQ.js`
+  - `108_restParam.js`
+  - `109_IQ.js`
+  - `110_spreadIQ.js`
+  - `111_scopeIQ.js`
+  - `112_IQ.js`
+  - `113_closure.js`
+  - `114_closure.js`
+  - `115_apiClosureRealExample.js`
+  - `116_higherOrderFun.js`
+  - `117_pureFunction.js`
 
 ## How to run examples
 
@@ -153,6 +167,7 @@ node chapter_09_User_Input/69_node_readline.js
 node chapter_10_Loops/72_for_loop.js
 node chapter_11_Array/91_map_reduce_filter.js
 node chapter_12_Functions/103_arrowFunction.js
+node chapter_12_Functions/117_pureFunction.js
 ```
 
 The user-input examples may wait for input in the terminal. The `70_prompt_sync.js` example uses the `prompt-sync` package when its code is enabled.
@@ -166,7 +181,8 @@ The user-input examples may wait for input in the terminal. The `70_prompt_sync.
 - Use conditional and switch statements to control program flow
 - Read and process input from the command line
 - Create, update, search, and transform arrays
-- Define and call functions using declarations, expressions, and arrow syntax
+- Define and call functions using declarations, expressions, arrow syntax, and common parameter patterns
+- Understand function scope, closures, higher-order functions, and pure functions
 - Build a strong foundation for Playwright automation scripting
 
 ## Learning path

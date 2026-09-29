@@ -1,0 +1,27 @@
+// Pure Functions
+// A pure function always returns the same output for the same input and has no side effects.// ✅ Pure — no side effects, predictable output
+// ✅ Pure — no side effects, predictable output
+
+function calculatePassRate(total, passed) {
+    return ((passed / total) * 100).toFixed(2);
+}
+
+console.log(calculatePassRate(100, 70));
+console.log(calculatePassRate(50, 7));
+console.log(calculatePassRate(100, 70));
+
+// ❌ Impure — depends on external state
+
+function isPassing(score) {
+    return score >= threshold; // depends on external variable
+}
+
+let threshold = 500;
+console.log(isPassing(threshold));
+console.log(isPassing(threshold));
+console.log(isPassing(threshold));
+console.log("--------------------------");
+threshold = 0;
+console.log(isPassing(threshold));
+console.log(isPassing(threshold));
+console.log(isPassing(threshold));
