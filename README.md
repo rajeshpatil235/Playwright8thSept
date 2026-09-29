@@ -114,6 +114,31 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `assignment.js`
   - `assignment2.js`
 
+- `chapter_11_Array/` - creating, accessing, modifying, searching, and transforming arrays
+  - `83_array.js`
+  - `84_array2.js`
+  - `85_accessing_array.js`
+  - `86_add_remove_array.js`
+  - `87_splice.js`
+  - `88_real_ex.js`
+  - `89_search.js`
+  - `90_forLoops.js`
+  - `91_map_reduce_filter.js`
+  - `92_arrays.js`
+  - `93_arraySlice.js`
+  - `94_concatArray.js`
+  - `95_arrayCheck.js`
+
+- `chapter_12_Functions/` - function declarations, parameters, return values, expressions, and arrow functions
+  - `96_function.js`
+  - `97_type1_noParam_noReturn.js`
+  - `98_type2_withParam_noReturn.js`
+  - `99_type3_noParam_withReturn.js`
+  - `100_type4_withParam_withReturn.js`
+  - `101_template_literal.js`
+  - `102_functionAsExpression.js`
+  - `103_arrowFunction.js`
+
 ## How to run examples
 
 Use Node.js from the project root to execute any lesson file:
@@ -126,6 +151,8 @@ node chapter_07_If_Else/56_even_odd.js
 node chapter_08_Switch_Statement/59_switch.js
 node chapter_09_User_Input/69_node_readline.js
 node chapter_10_Loops/72_for_loop.js
+node chapter_11_Array/91_map_reduce_filter.js
+node chapter_12_Functions/103_arrowFunction.js
 ```
 
 The user-input examples may wait for input in the terminal. The `70_prompt_sync.js` example uses the `prompt-sync` package when its code is enabled.
@@ -138,6 +165,8 @@ The user-input examples may wait for input in the terminal. The `70_prompt_sync.
 - Explore operators and expressions in real examples
 - Use conditional and switch statements to control program flow
 - Read and process input from the command line
+- Create, update, search, and transform arrays
+- Define and call functions using declarations, expressions, and arrow syntax
 - Build a strong foundation for Playwright automation scripting
 
 ## Learning path
@@ -152,7 +181,9 @@ This repository follows a structured beginner-friendly flow:
 6. Conditional logic and switch statements
 7. User input with Node.js
 8. Repetition and loop control with `for`, `while`, and `do...while`
-9. Preparation for Playwright test automation and scripting
+9. Arrays and common array methods
+10. Function declarations, parameters, return values, and arrow functions
+11. Preparation for Playwright test automation and scripting
 
 ## Notes
 
