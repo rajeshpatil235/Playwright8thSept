@@ -1,14 +1,14 @@
 # Playwright8thSept
 
-This repository is a JavaScript learning workspace created for the Playwright learning journey. It contains beginner-friendly examples, concept exercises, and notes covering the core JavaScript fundamentals needed before moving into automation testing.
+This repository is a JavaScript learning workspace built for hands-on practice before moving into Playwright automation. It contains beginner-friendly exercises that cover core JavaScript concepts, syntax, logic, loops, arrays, functions, and string manipulation.
 
 ## Overview
 
-The project is organized chapter-wise so each folder focuses on a specific JavaScript topic. The exercises are designed for hands-on practice and quick understanding of syntax, rules, and behavior.
+The project is organized chapter by chapter so each folder focuses on a specific topic. The exercises are designed for self-learning, daily practice, and quick understanding of how JavaScript works in real examples.
 
 ## Project structure
 
-- `chapter_01_Basics/` - basic JavaScript setup, syntax, and environment checks
+- `chapter_01_Basics/` - JavaScript setup, basic syntax, and environment checks
   - `01_basics.js`
   - `02_basics1.js`
   - `03_verify_setup.js`
@@ -22,7 +22,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `07_identifer_rules_2.js`
   - `08_comments.js`
 
-- `chapter_04_Var_Let_Const/` - variable declaration, hoisting, scoping, and function behavior
+- `chapter_04_Var_Let_Const/` - variables, scoping, hoisting, and function behavior
   - `09_var_let_const.js`
   - `10_function.js`
   - `11_var_explained.js`
@@ -37,7 +37,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `20_const_hoisting.js`
   - `21_realtime_ex.js`
 
-- `chapter_05_Literal/` - literal values and string formatting
+- `chapter_05_Literal/` - primitive values and literal-based examples
   - `22_literal.js`
   - `23_null_undefined.js`
   - `24_null.js`
@@ -47,7 +47,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `28_template_literal.js`
   - `29_single_double_backtick.js`
 
-- `chapter_06_Operator/` - assignment, arithmetic, comparison, logical, ternary, type, increment/decrement, nullish, and advanced operator exercises
+- `chapter_06_Operator/` - arithmetic, comparison, logic, unary, nullish, and ternary operators
   - `30_assignment_operator.js`
   - `31_arithmetic_operator.js`
   - `32_modulus_operator.js`
@@ -68,7 +68,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `47_advanced_iq.js`
   - `assignment.js`
 
-- `chapter_07_If_Else/` - if, else-if, else, practical conditions, grading, and leap-year exercises
+- `chapter_07_If_Else/` - conditionals, real-world checks, grade systems, and leap-year logic
   - `48_if_else1.js`
   - `49_if_elseif_else.js`
   - `50_real_time.js`
@@ -82,7 +82,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `58_leap_year.js`
   - `assignment.js`
 
-- `chapter_08_Switch_Statement/` - switch syntax, default cases, fall-through, grouped cases, and practical exercises
+- `chapter_08_Switch_Statement/` - switch cases, grouping, fall-through, and default behavior
   - `59_switch.js`
   - `60_no_break.js`
   - `61_default.js`
@@ -93,12 +93,12 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `66_iq3.js`
   - `67_iq4.js`
 
-- `chapter_09_User_Input/` - collecting values with Node.js readline and prompt-sync
+- `chapter_09_User_Input/` - reading input from the terminal using Node.js and prompt-sync
   - `68_user_input.js`
   - `69_node_readline.js`
   - `70_prompt_sync.js`
 
-- `chapter_10_Loops/` - for, while, do-while, and loop-based practice examples
+- `chapter_10_Loops/` - `for`, `while`, and `do...while` loop exercises
   - `71_for_loop.js`
   - `72_for_loop.js`
   - `73_for_loop.js`
@@ -114,7 +114,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `assignment.js`
   - `assignment2.js`
 
-- `chapter_11_Array/` - creating, accessing, modifying, searching, and transforming arrays
+- `chapter_11_Array/` - arrays, indexing, update/delete operations, searching, and transformation methods
   - `83_array.js`
   - `84_array2.js`
   - `85_accessing_array.js`
@@ -129,7 +129,7 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `94_concatArray.js`
   - `95_arrayCheck.js`
 
-- `chapter_12_Functions/` - function declarations, parameters, expressions, arrow functions, scope, closures, higher-order functions, and pure functions
+- `chapter_12_Functions/` - function declarations, callbacks, arrow functions, closures, and higher-order functions
   - `96_function.js`
   - `97_type1_noParam_noReturn.js`
   - `98_type2_withParam_noReturn.js`
@@ -153,9 +153,18 @@ The project is organized chapter-wise so each folder focuses on a specific JavaS
   - `116_higherOrderFun.js`
   - `117_pureFunction.js`
 
-## How to run examples
+- `chapter_13_Strings/` - string basics, search, substring, transformation, and palindrome logic
+  - `118_string.js`
+  - `119_stringProperties.js`
+  - `120_search_check.js`
+  - `121_substring.js`
+  - `122_transform.js`
+  - `123_stringConversion.js`
+  - `palindrome.js`
 
-Use Node.js from the project root to execute any lesson file:
+## How to run the examples
+
+Run any lesson file from the project root with Node.js:
 
 ```bash
 node chapter_01_Basics/01_basics.js
@@ -167,43 +176,45 @@ node chapter_09_User_Input/69_node_readline.js
 node chapter_10_Loops/72_for_loop.js
 node chapter_11_Array/91_map_reduce_filter.js
 node chapter_12_Functions/103_arrowFunction.js
-node chapter_12_Functions/117_pureFunction.js
+node chapter_13_Strings/palindrome.js
 ```
 
-The user-input examples may wait for input in the terminal. The `70_prompt_sync.js` example uses the `prompt-sync` package when its code is enabled.
+If a script waits for input, use the terminal for interactive input. The example `70_prompt_sync.js` uses the `prompt-sync` package when the code is enabled.
 
 ## Learning goals
 
-- Understand JavaScript syntax and basic coding patterns
-- Learn variable declarations and scope rules
-- Practice literal usage and data types
-- Explore operators and expressions in real examples
-- Use conditional and switch statements to control program flow
-- Read and process input from the command line
+- Understand JavaScript syntax and core language patterns
+- Learn variable declarations, scoping, and hoisting rules
+- Practice literals, values, and type behavior
+- Explore operators and expression logic through examples
+- Use conditions and switch cases to control flow
+- Read input from the terminal and work with user data
 - Create, update, search, and transform arrays
-- Define and call functions using declarations, expressions, arrow syntax, and common parameter patterns
-- Understand function scope, closures, higher-order functions, and pure functions
+- Define functions using declarations, expressions, and arrow syntax
+- Understand closures, scope, and higher-order functions
+- Work with strings, checks, extraction, and transformations
 - Build a strong foundation for Playwright automation scripting
 
 ## Learning path
 
-This repository follows a structured beginner-friendly flow:
+This repository follows a structured beginner-friendly sequence:
 
 1. Basics and environment setup
 2. JavaScript fundamentals and syntax rules
-3. Variables, scoping, and hoisting
-4. Literals and type-related concepts
-5. Operators and practical expression examples
+3. Variables, scope, and hoisting
+4. Literals and value types
+5. Operators and practical expressions
 6. Conditional logic and switch statements
 7. User input with Node.js
-8. Repetition and loop control with `for`, `while`, and `do...while`
-9. Arrays and common array methods
-10. Function declarations, parameters, return values, and arrow functions
-11. Preparation for Playwright test automation and scripting
+8. Looping and repetition
+9. Arrays and array methods
+10. Functions and callback patterns
+11. String manipulation and practical checks
+12. Preparation for Playwright automation and test scripting
 
 ## Notes
 
-These exercises are intended for self-study, quick experimentation, and practical understanding of JavaScript fundamentals. Each file is designed to be read and executed individually to reinforce one concept at a time.
+These exercises are intended for self-study, experimentation, and understanding how JavaScript works in practice. Most files are built to be read and executed individually so each concept is easy to follow.
 
 ## Repository
 
