@@ -162,6 +162,30 @@ The project is organized chapter by chapter so each folder focuses on a specific
   - `123_stringConversion.js`
   - `palindrome.js`
 
+- `chapter_14_Object/` - objects, nesting, destructuring, spread, getters/setters, and real-world object patterns
+  - `124_object1.js`
+  - `125_object2.js`
+  - `126_object_creation.js`
+  - `127_object_realEx.js`
+  - `128_primitive_vs_reference.js`
+  - `129_examples.js`
+  - `130_iq.js`
+  - `131_objectFunction.js`
+  - `132_destructuring.js`
+  - `133_spread.js`
+  - `134_getter_setter.js`
+  - `135_iq.js`
+  - `136_realEx.js`
+  - `137_let_const.js`
+  - `practice.js`
+
+- `chapter_15_2D_Array/` - two-dimensional array patterns, matrix logic, and pyramid-style exercises
+  - `138_2D_array.js`
+  - `139_2D_array2.js`
+  - `140_real.js`
+  - `141_2D_arrayFunction.js`
+  - `142_rightPyramidPattern.js`
+
 ## How to run the examples
 
 Run any lesson file from the project root with Node.js:
@@ -177,6 +201,8 @@ node chapter_10_Loops/72_for_loop.js
 node chapter_11_Array/91_map_reduce_filter.js
 node chapter_12_Functions/103_arrowFunction.js
 node chapter_13_Strings/palindrome.js
+node chapter_14_Object/132_destructuring.js
+node chapter_15_2D_Array/142_rightPyramidPattern.js
 ```
 
 If a script waits for input, use the terminal for interactive input. The example `70_prompt_sync.js` uses the `prompt-sync` package when the code is enabled.
@@ -193,6 +219,8 @@ If a script waits for input, use the terminal for interactive input. The example
 - Define functions using declarations, expressions, and arrow syntax
 - Understand closures, scope, and higher-order functions
 - Work with strings, checks, extraction, and transformations
+- Model real-world data using objects, destructuring, and spread patterns
+- Create and navigate 2D arrays and matrix-style patterns
 - Build a strong foundation for Playwright automation scripting
 
 ## Learning path
@@ -210,7 +238,9 @@ This repository follows a structured beginner-friendly sequence:
 9. Arrays and array methods
 10. Functions and callback patterns
 11. String manipulation and practical checks
-12. Preparation for Playwright automation and test scripting
+12. Object modeling and JavaScript data structures
+13. 2D arrays and pattern-based problem solving
+14. Preparation for Playwright automation and test scripting
 
 ## Notes
 
